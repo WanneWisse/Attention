@@ -41,7 +41,7 @@ I also plotted the attention matrix(QK_T) to see where the network was paying at
 I calculated this using averages of the attention values by summing over the rows and dividing by length of the rows and averages of the attention values by summing over the columns and dividing by length of the columns. 
 
 Column attention shows which pixels are paid attention to. Result:
-![Alt text](./ColumnAttention.png)
+![Alt text](./ColumnAttention.png)<br>
 Row attention shows which pixels are paying attention to other pixels. Result:
 ![Alt text](./RowAttention.png)
 Future directions: I am still wondering why attention only uses pairwise connections instead of something such as groups such as ((1,2) and 3).
