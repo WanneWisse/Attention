@@ -43,7 +43,7 @@ I calculated this using averages of the attention values by summing over the row
 Column attention shows which pixels are paid attention to. Result:
 ![Alt text](./ColumnAttention.png)<br>
 Row attention shows which pixels are paying attention to other pixels. Result:
-![Alt text](./RowAttention.png)
+![Alt text](./RowAttention.png)<br>
 Future directions: I am still wondering why attention only uses pairwise connections instead of something such as groups such as ((1,2) and 3).
 
    
